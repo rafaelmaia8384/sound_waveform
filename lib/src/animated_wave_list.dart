@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
 import 'amplitude.dart';
@@ -9,10 +10,16 @@ class AnimatedWaveList extends StatefulWidget {
   /// Creates an [AnimatedWaveList] widget.
   ///
   /// [stream] is the stream of amplitude values to display.
-  const AnimatedWaveList({super.key, required this.stream});
+  const AnimatedWaveList({
+    super.key,
+    required this.stream,
+    this.barColor,
+    this.maxHeight,
+  });
 
   final Stream<Amplitude> stream; // The stream of amplitude values.
-
+  final Color? barColor;
+  final int? maxHeight;
   @override
   State<AnimatedWaveList> createState() => _AnimatedWaveListState();
 }
@@ -30,6 +37,8 @@ class _AnimatedWaveListState extends State<AnimatedWaveList> {
     return WaveFormBar(
       animation: animation,
       amplitude: _list[index],
+      color: widget.barColor ?? Colors.cyan,
+      maxHeight: widget.maxHeight ?? 2,
     );
   }
 
