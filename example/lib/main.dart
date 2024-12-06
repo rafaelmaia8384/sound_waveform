@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:waveform_flutter/waveform_flutter.dart';
+import 'package:sound_waveform/sound_waveform.dart';
 
 void main() => runApp(MyApp());
 

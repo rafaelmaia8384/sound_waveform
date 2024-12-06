@@ -1,7 +1,7 @@
 name: example
-description: "Example app for waveform_flutter"
+description: "Example app for sound_waveform"
 version: 1.1.0
-repository: https://github.com/agenthesh/waveform
+repository: https://github.com/rafaelmaia8384/sound_waveform
 publish_to: none
 
 environment:
@@ -11,8 +11,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  waveform_flutter:
-    path: ../
+  sound_waveform:
+    path: ..
 
 dev_dependencies:
   flutter_lints: ^5.0.0
