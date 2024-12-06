@@ -5,18 +5,18 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "waveform_flutter",
+      "name": "sound_waveform",
       "request": "launch",
       "type": "dart"
     },
     {
-      "name": "waveform_flutter (profile mode)",
+      "name": "sound_waveform (profile mode)",
       "request": "launch",
       "type": "dart",
       "flutterMode": "profile"
     },
     {
-      "name": "waveform_flutter (release mode)",
+      "name": "sound_waveform (release mode)",
       "request": "launch",
       "type": "dart",
       "flutterMode": "release"

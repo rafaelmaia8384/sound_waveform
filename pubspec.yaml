@@ -1,7 +1,8 @@
-name: waveform_flutter
-description: "Build highly customizable & beautiful animated waveforms in your Flutter app"
-version: 1.1.0
-repository: https://github.com/agenthesh/waveform
+name: sound_waveform
+description: "sound_waveform is a fork from sound_waveform repository"
+version: 1.0.0
+repository: https://github.com/rafaelmaia8384/sound_waveform
+homepage: https://github.com/rafaelmaia8384/sound_waveform
 
 environment:
   sdk: ">=3.3.3 <4.0.0"
